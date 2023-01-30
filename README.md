@@ -14,3 +14,19 @@ As root do:
 ```bash
 # apt-get install mariadb-client mariadb-server
 ```
+
+## Create dbplayers database
+
+As root do:
+
+```bash
+# mysqladmin -u root -p create dbplayers
+```
+
+The password is empty
+
+## Connect to MariaDB:
+
+```bash
+# mysql
+```
