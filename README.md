@@ -37,3 +37,8 @@ The password is empty
 MariaDB [(none)]> show databases;
 ```
 
+## Use dbplayers database
+
+```
+MariaDB [(none)]> use dbplayers;
+```
