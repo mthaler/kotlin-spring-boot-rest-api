@@ -97,5 +97,28 @@ curl -X POST --location "http://localhost:8080/api/v1/players" \
 curl -X GET --location "http://localhost:8080/api/v1/players"
 ```
 
+## Get player by id
+
+```bash
+curl -X GET --location "http://localhost:8080/api/v1/players/1"
+```
+
+## Update player
+
+```bash
+curl -X PUT --location "http://localhost:8080/api/v1/players/1" \
+    -H "Content-Type: application/json" \
+    -d "{
+          \"name\": \"Leo Messi\",
+          \"age\": 35,
+          \"nationality\": \"Argentina\"
+        }"
+```
+
+## Delete a player
+
+```bash
+curl -X DELETE --location "http://localhost:8080/api/v1/players/1"
+```
 
 
