@@ -30,3 +30,10 @@ The password is empty
 ```bash
 # mysql
 ```
+
+## Show databases
+
+```
+MariaDB [(none)]> show databases;
+```
+
