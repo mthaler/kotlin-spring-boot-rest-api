@@ -72,3 +72,30 @@ As root do:
 myql
 MariaDB [(none)]> GRANT ALL ON dbplayers.* TO 'dbplayers' IDENTIFIED BY 'db_password';
 ```
+
+# Using the app
+
+```bash
+$ mvn spring-boot:run
+```
+
+## Create a player
+
+```bash
+curl -X POST --location "http://localhost:8080/api/v1/players" \
+    -H "Content-Type: application/json" \
+    -d "{
+          \"name\": \"Leonel Messi\",
+          \"age\": 35,
+          \"nationality\": \"Argentina\"
+        }"
+```
+
+## Get all players
+
+```bash
+curl -X GET --location "http://localhost:8080/api/v1/players"
+```
+
+
+
