@@ -42,3 +42,10 @@ MariaDB [(none)]> show databases;
 ```
 MariaDB [(none)]> use dbplayers;
 ```
+
+The following prompt should be showed after that:
+
+
+```
+MariaDB [dbplayers]>
+```
