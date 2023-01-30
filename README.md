@@ -11,4 +11,4 @@ It retrieve Players information and uses a MySQL as database, with JPA and Hiber
 
 As root do:
 
-  # apt-get install mariadb-client mariadb-server
+`# apt-get install mariadb-client mariadb-server
