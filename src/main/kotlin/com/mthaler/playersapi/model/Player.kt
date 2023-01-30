@@ -1,4 +1,4 @@
-package com.mthaler.model
+package com.mthaler.playersapi.model
 
 import javax.persistence.*
 

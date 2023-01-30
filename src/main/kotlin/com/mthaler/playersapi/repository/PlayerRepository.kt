@@ -1,6 +1,6 @@
-package com.mthaler.repository
+package com.mthaler.playersapi.repository
 
-import com.mthaler.model.Player
+import com.mthaler.playersapi.model.Player
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository
 

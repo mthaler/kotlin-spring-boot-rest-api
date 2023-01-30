@@ -1,4 +1,4 @@
-package com.mthaler
+package com.mthaler.playersapi
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
