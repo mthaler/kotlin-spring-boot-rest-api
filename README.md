@@ -49,3 +49,10 @@ The following prompt should be showed after that:
 ```
 MariaDB [dbplayers]>
 ```
+
+## Create tb_player table:
+
+```
+MariaDB [dbplayers]> CREATE TABLE tb_player(id INT AUTO_INCREMENT, name VARCHAR(255) NOT NULL, age INT NOT NULL, nationality VARCHAR(255) NOT NULL, PRIMARY KEY (id));
+Query OK, 0 rows affected (0.024 sec)
+```
